@@ -1,0 +1,3319 @@
+{
+    "Head": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Person": {
+        "parents": [],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": [
+            "Human"
+        ]
+    },
+    "Face": {
+        "parents": [
+            "Head",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Photography": {
+        "parents": [],
+        "categories": [
+            "Hobbies and Interests"
+        ],
+        "aliases": [
+            "Photo"
+        ]
+    },
+    "Portrait": {
+        "parents": [
+            "Face",
+            "Head",
+            "Person",
+            "Photography"
+        ],
+        "categories": [
+            "Hobbies and Interests"
+        ],
+        "aliases": []
+    },
+    "Adult": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Male": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Man": {
+        "parents": [
+            "Adult",
+            "Male",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Mouth": {
+        "parents": [
+            "Body Part",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": [
+            "Lip"
+        ]
+    },
+    "Teeth": {
+        "parents": [
+            "Body Part",
+            "Mouth",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Happy": {
+        "parents": [
+            "Face",
+            "Head",
+            "Person"
+        ],
+        "categories": [
+            "Expressions and Emotions"
+        ],
+        "aliases": []
+    },
+    "Smile": {
+        "parents": [
+            "Face",
+            "Happy",
+            "Head",
+            "Person"
+        ],
+        "categories": [
+            "Expressions and Emotions"
+        ],
+        "aliases": []
+    },
+    "Laughing": {
+        "parents": [
+            "Face",
+            "Happy",
+            "Head",
+            "Person"
+        ],
+        "categories": [
+            "Expressions and Emotions"
+        ],
+        "aliases": [
+            "Laugh"
+        ]
+    },
+    "Dimples": {
+        "parents": [
+            "Face",
+            "Head",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Hair": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Beauty and Personal Care"
+        ],
+        "aliases": []
+    },
+    "Neck": {
+        "parents": [
+            "Body Part",
+            "Face",
+            "Head",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Night": {
+        "parents": [
+            "Nature",
+            "Outdoors"
+        ],
+        "categories": [
+            "Nature and Outdoors"
+        ],
+        "aliases": []
+    },
+    "Outdoors": {
+        "parents": [],
+        "categories": [
+            "Nature and Outdoors"
+        ],
+        "aliases": []
+    },
+    "Mustache": {
+        "parents": [
+            "Face",
+            "Head",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Black Hair": {
+        "parents": [
+            "Hair",
+            "Person"
+        ],
+        "categories": [
+            "Beauty and Personal Care"
+        ],
+        "aliases": []
+    },
+    "Selfie": {
+        "parents": [
+            "Face",
+            "Head",
+            "Person"
+        ],
+        "categories": [
+            "Colors and Visual Composition"
+        ],
+        "aliases": []
+    },
+    "Female": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Woman": {
+        "parents": [
+            "Adult",
+            "Female",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Lady": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Blonde": {
+        "parents": [
+            "Hair",
+            "Person"
+        ],
+        "categories": [
+            "Beauty and Personal Care"
+        ],
+        "aliases": []
+    },
+    "Body Part": {
+        "parents": [],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Indoors": {
+        "parents": [],
+        "categories": [
+            "Home and Indoors"
+        ],
+        "aliases": []
+    },
+    "Blazer": {
+        "parents": [
+            "Clothing",
+            "Coat",
+            "Jacket"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Clothing": {
+        "parents": [],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": [
+            "Apparel"
+        ]
+    },
+    "Coat": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Jacket": {
+        "parents": [
+            "Clothing",
+            "Coat"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Accessories": {
+        "parents": [],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": [
+            "Accessory"
+        ]
+    },
+    "Formal Wear": {
+        "parents": [],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Tie": {
+        "parents": [
+            "Accessories",
+            "Formal Wear"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Ponytail": {
+        "parents": [
+            "Hair",
+            "Person"
+        ],
+        "categories": [
+            "Animals and Pets"
+        ],
+        "aliases": []
+    },
+    "Tongue": {
+        "parents": [
+            "Body Part",
+            "Mouth",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Urban": {
+        "parents": [],
+        "categories": [
+            "Colors and Visual Composition"
+        ],
+        "aliases": []
+    },
+    "Night Life": {
+        "parents": [
+            "Urban"
+        ],
+        "categories": [
+            "Travel and Adventure"
+        ],
+        "aliases": []
+    },
+    "Attorney": {
+        "parents": [
+            "Courtroom",
+            "Indoors",
+            "Person",
+            "Room"
+        ],
+        "categories": [
+            "Profession"
+        ],
+        "aliases": []
+    },
+    "Courtroom": {
+        "parents": [
+            "Indoors",
+            "Room"
+        ],
+        "categories": [
+            "Buildings and Architecture"
+        ],
+        "aliases": [
+            "Court"
+        ]
+    },
+    "Room": {
+        "parents": [
+            "Indoors"
+        ],
+        "categories": [
+            "Home and Indoors"
+        ],
+        "aliases": []
+    },
+    "Pixie Cut": {
+        "parents": [
+            "Hair",
+            "Person"
+        ],
+        "categories": [
+            "Beauty and Personal Care"
+        ],
+        "aliases": []
+    },
+    "Sunglasses": {
+        "parents": [
+            "Accessories"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Glasses": {
+        "parents": [
+            "Accessories"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Crowd": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Press Conference": {
+        "parents": [
+            "Crowd",
+            "Person"
+        ],
+        "categories": [
+            "Events and Attractions"
+        ],
+        "aliases": []
+    },
+    "Fashion": {
+        "parents": [],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Beard": {
+        "parents": [
+            "Face",
+            "Head",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Jewelry": {
+        "parents": [
+            "Accessories"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Necklace": {
+        "parents": [
+            "Accessories",
+            "Jewelry"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Earring": {
+        "parents": [
+            "Accessories",
+            "Jewelry"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Bride": {
+        "parents": [
+            "Adult",
+            "Female",
+            "Person",
+            "Wedding",
+            "Woman"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Wedding": {
+        "parents": [],
+        "categories": [
+            "Events and Attractions"
+        ],
+        "aliases": []
+    },
+    "Hairdresser": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Haircut": {
+        "parents": [
+            "Hairdresser",
+            "Person"
+        ],
+        "categories": [
+            "Beauty and Personal Care"
+        ],
+        "aliases": []
+    },
+    "Smelling": {
+        "parents": [
+            "Face",
+            "Head",
+            "Person"
+        ],
+        "categories": [
+            "Actions"
+        ],
+        "aliases": []
+    },
+    "Money": {
+        "parents": [],
+        "categories": [
+            "Everyday Objects"
+        ],
+        "aliases": []
+    },
+    "Collar": {
+        "parents": [
+            "Accessories"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Suit": {
+        "parents": [
+            "Clothing",
+            "Formal Wear"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Cap": {
+        "parents": [
+            "Clothing",
+            "Hat"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Hat": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Baseball Cap": {
+        "parents": [
+            "Cap",
+            "Clothing",
+            "Hat"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Shirt": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Blackboard": {
+        "parents": [],
+        "categories": [
+            "Education"
+        ],
+        "aliases": []
+    },
+    "Frown": {
+        "parents": [
+            "Face",
+            "Head",
+            "Person",
+            "Sad"
+        ],
+        "categories": [
+            "Expressions and Emotions"
+        ],
+        "aliases": []
+    },
+    "Sad": {
+        "parents": [
+            "Face",
+            "Head",
+            "Person"
+        ],
+        "categories": [
+            "Expressions and Emotions"
+        ],
+        "aliases": [
+            "Worried"
+        ]
+    },
+    "Electrical Device": {
+        "parents": [],
+        "categories": [
+            "Technology and Computing"
+        ],
+        "aliases": []
+    },
+    "Microphone": {
+        "parents": [
+            "Electrical Device"
+        ],
+        "categories": [
+            "Technology and Computing"
+        ],
+        "aliases": []
+    },
+    "Performer": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Profession"
+        ],
+        "aliases": []
+    },
+    "Appliance": {
+        "parents": [
+            "Device",
+            "Electrical Device"
+        ],
+        "categories": [
+            "Home Appliances"
+        ],
+        "aliases": []
+    },
+    "Blow Dryer": {
+        "parents": [
+            "Appliance",
+            "Device",
+            "Electrical Device"
+        ],
+        "categories": [
+            "Tools and Machinery"
+        ],
+        "aliases": [
+            "Hair Drier"
+        ]
+    },
+    "Device": {
+        "parents": [],
+        "categories": [
+            "Technology and Computing"
+        ],
+        "aliases": []
+    },
+    "Plant": {
+        "parents": [],
+        "categories": [
+            "Plants and Flowers"
+        ],
+        "aliases": []
+    },
+    "Potted Plant": {
+        "parents": [
+            "Plant"
+        ],
+        "categories": [
+            "Home and Indoors"
+        ],
+        "aliases": []
+    },
+    "Leisure Activities": {
+        "parents": [],
+        "categories": [
+            "Travel and Adventure"
+        ],
+        "aliases": [
+            "Recreation"
+        ]
+    },
+    "Music": {
+        "parents": [],
+        "categories": [
+            "Performing Arts"
+        ],
+        "aliases": []
+    },
+    "Musical Instrument": {
+        "parents": [],
+        "categories": [
+            "Hobbies and Interests"
+        ],
+        "aliases": []
+    },
+    "Musician": {
+        "parents": [
+            "Leisure Activities",
+            "Music",
+            "Musical Instrument",
+            "Performer",
+            "Person"
+        ],
+        "categories": [
+            "Profession"
+        ],
+        "aliases": []
+    },
+    "Child": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": [
+            "Kid"
+        ]
+    },
+    "Girl": {
+        "parents": [
+            "Female",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Smoke Pipe": {
+        "parents": [],
+        "categories": [
+            "Hobbies and Interests"
+        ],
+        "aliases": []
+    },
+    "Flower": {
+        "parents": [
+            "Plant"
+        ],
+        "categories": [
+            "Plants and Flowers"
+        ],
+        "aliases": [
+            "Blossom"
+        ]
+    },
+    "Sunflower": {
+        "parents": [
+            "Flower",
+            "Plant"
+        ],
+        "categories": [
+            "Plants and Flowers"
+        ],
+        "aliases": []
+    },
+    "People": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Necktie": {
+        "parents": [
+            "Accessories",
+            "Formal Wear",
+            "Tie"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Art": {
+        "parents": [],
+        "categories": [
+            "Hobbies and Interests"
+        ],
+        "aliases": []
+    },
+    "Painting": {
+        "parents": [
+            "Art"
+        ],
+        "categories": [
+            "Furniture and Furnishings"
+        ],
+        "aliases": []
+    },
+    "Monk": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Knitwear": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": [
+            "Knitted Clothes"
+        ]
+    },
+    "Sweater": {
+        "parents": [
+            "Clothing",
+            "Knitwear"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Scarf": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Finger": {
+        "parents": [
+            "Body Part",
+            "Hand",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Hand": {
+        "parents": [
+            "Body Part",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Boy": {
+        "parents": [
+            "Male",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Teen": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Goggles": {
+        "parents": [
+            "Accessories"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Hoodie": {
+        "parents": [
+            "Clothing",
+            "Knitwear",
+            "Sweater",
+            "Sweatshirt"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Sweatshirt": {
+        "parents": [
+            "Clothing",
+            "Knitwear",
+            "Sweater"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Monitor": {
+        "parents": [
+            "Computer Hardware",
+            "Electronics",
+            "Hardware",
+            "Screen"
+        ],
+        "categories": [
+            "Technology and Computing"
+        ],
+        "aliases": [
+            "Display",
+            "Digital Display",
+            "LCD Screen"
+        ]
+    },
+    "Screen": {
+        "parents": [
+            "Electronics"
+        ],
+        "categories": [
+            "Technology and Computing"
+        ],
+        "aliases": []
+    },
+    "Eating": {
+        "parents": [
+            "Food",
+            "Person"
+        ],
+        "categories": [
+            "Actions"
+        ],
+        "aliases": []
+    },
+    "Food": {
+        "parents": [],
+        "categories": [
+            "Food and Beverage"
+        ],
+        "aliases": []
+    },
+    "Baby": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Captain": {
+        "parents": [
+            "Officer",
+            "Person"
+        ],
+        "categories": [
+            "Profession"
+        ],
+        "aliases": []
+    },
+    "Officer": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Profession"
+        ],
+        "aliases": []
+    },
+    "Pianist": {
+        "parents": [
+            "Keyboard",
+            "Leisure Activities",
+            "Music",
+            "Musical Instrument",
+            "Musician",
+            "Performer",
+            "Person",
+            "Piano"
+        ],
+        "categories": [
+            "Profession"
+        ],
+        "aliases": [
+            "Playing Piano"
+        ]
+    },
+    "Piano": {
+        "parents": [
+            "Keyboard",
+            "Musical Instrument"
+        ],
+        "categories": [
+            "Hobbies and Interests"
+        ],
+        "aliases": []
+    },
+    "Bathing Cap": {
+        "parents": [
+            "Cap",
+            "Clothing",
+            "Hat"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Swimwear": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Hardhat": {
+        "parents": [
+            "Clothing",
+            "Helmet"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Helmet": {
+        "parents": [],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Skin": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Tattoo": {
+        "parents": [
+            "Person",
+            "Skin"
+        ],
+        "categories": [
+            "Beauty and Personal Care"
+        ],
+        "aliases": []
+    },
+    "Piercing": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Blouse": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Cosmetics": {
+        "parents": [],
+        "categories": [
+            "Beauty and Personal Care"
+        ],
+        "aliases": []
+    },
+    "Lipstick": {
+        "parents": [
+            "Cosmetics"
+        ],
+        "categories": [
+            "Beauty and Personal Care"
+        ],
+        "aliases": []
+    },
+    "Nature": {
+        "parents": [
+            "Outdoors"
+        ],
+        "categories": [
+            "Nature and Outdoors"
+        ],
+        "aliases": []
+    },
+    "Jaw": {
+        "parents": [
+            "Body Part",
+            "Face",
+            "Head",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Turban": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Crew Cut": {
+        "parents": [
+            "Hair",
+            "Person"
+        ],
+        "categories": [
+            "Beauty and Personal Care"
+        ],
+        "aliases": []
+    },
+    "White Board": {
+        "parents": [],
+        "categories": [
+            "Offices and Workspaces"
+        ],
+        "aliases": []
+    },
+    "American Football": {
+        "parents": [
+            "Football",
+            "Sport"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Football": {
+        "parents": [
+            "Sport"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Football Helmet": {
+        "parents": [
+            "American Football",
+            "Football",
+            "Helmet",
+            "Sport"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Sport": {
+        "parents": [],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": [
+            "Sports"
+        ]
+    },
+    "Playing American Football": {
+        "parents": [
+            "American Football",
+            "Football",
+            "Person",
+            "Sport"
+        ],
+        "categories": [
+            "Actions"
+        ],
+        "aliases": []
+    },
+    "TV": {
+        "parents": [
+            "Computer Hardware",
+            "Electronics",
+            "Hardware",
+            "Monitor",
+            "Screen"
+        ],
+        "categories": [
+            "Technology and Computing"
+        ],
+        "aliases": [
+            "Television"
+        ]
+    },
+    "Solo Performance": {
+        "parents": [
+            "Performer",
+            "Person"
+        ],
+        "categories": [
+            "Performing Arts"
+        ],
+        "aliases": []
+    },
+    "Stage": {
+        "parents": [],
+        "categories": [
+            "Performing Arts"
+        ],
+        "aliases": []
+    },
+    "Concert": {
+        "parents": [
+            "Crowd",
+            "Person"
+        ],
+        "categories": [
+            "Performing Arts"
+        ],
+        "aliases": []
+    },
+    "Karaoke": {
+        "parents": [
+            "Leisure Activities"
+        ],
+        "categories": [
+            "Hobbies and Interests"
+        ],
+        "aliases": []
+    },
+    "Computer Hardware": {
+        "parents": [
+            "Electronics",
+            "Hardware"
+        ],
+        "categories": [
+            "Technology and Computing"
+        ],
+        "aliases": []
+    },
+    "Hardware": {
+        "parents": [
+            "Electronics"
+        ],
+        "categories": [
+            "Technology and Computing"
+        ],
+        "aliases": []
+    },
+    "Vest": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Audience": {
+        "parents": [
+            "Crowd",
+            "Person"
+        ],
+        "categories": [
+            "Performing Arts"
+        ],
+        "aliases": []
+    },
+    "Speech": {
+        "parents": [
+            "Audience",
+            "Crowd",
+            "Person"
+        ],
+        "categories": [
+            "Actions"
+        ],
+        "aliases": [
+            "Public Speaking"
+        ]
+    },
+    "Couch": {
+        "parents": [
+            "Furniture"
+        ],
+        "categories": [
+            "Furniture and Furnishings"
+        ],
+        "aliases": []
+    },
+    "Furniture": {
+        "parents": [],
+        "categories": [
+            "Furniture and Furnishings"
+        ],
+        "aliases": []
+    },
+    "Smoke": {
+        "parents": [],
+        "categories": [
+            "Public Safety"
+        ],
+        "aliases": []
+    },
+    "Smoking": {
+        "parents": [
+            "Face",
+            "Head",
+            "Person",
+            "Smoke"
+        ],
+        "categories": [
+            "Actions"
+        ],
+        "aliases": []
+    },
+    "Ball": {
+        "parents": [],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Tennis": {
+        "parents": [
+            "Sport"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Tennis Ball": {
+        "parents": [
+            "Ball",
+            "Sport",
+            "Tennis"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Racket": {
+        "parents": [],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Electronics": {
+        "parents": [],
+        "categories": [
+            "Technology and Computing"
+        ],
+        "aliases": []
+    },
+    "Headphones": {
+        "parents": [
+            "Electronics"
+        ],
+        "categories": [
+            "Technology and Computing"
+        ],
+        "aliases": [
+            "Headset"
+        ]
+    },
+    "Bottle": {
+        "parents": [],
+        "categories": [
+            "Everyday Objects"
+        ],
+        "aliases": []
+    },
+    "Toy": {
+        "parents": [],
+        "categories": [
+            "Hobbies and Interests"
+        ],
+        "aliases": []
+    },
+    "VR Headset": {
+        "parents": [],
+        "categories": [
+            "Technology and Computing"
+        ],
+        "aliases": []
+    },
+    "Swimming": {
+        "parents": [
+            "Leisure Activities",
+            "Person",
+            "Sport",
+            "Water",
+            "Water Sports"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Water": {
+        "parents": [],
+        "categories": [
+            "Nature and Outdoors"
+        ],
+        "aliases": []
+    },
+    "Water Sports": {
+        "parents": [
+            "Leisure Activities",
+            "Sport",
+            "Water"
+        ],
+        "categories": [
+            "Travel and Adventure"
+        ],
+        "aliases": []
+    },
+    "Pool": {
+        "parents": [
+            "Water"
+        ],
+        "categories": [
+            "Home and Indoors"
+        ],
+        "aliases": []
+    },
+    "Shoulder": {
+        "parents": [
+            "Body Part",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Spa": {
+        "parents": [],
+        "categories": [
+            "Beauty and Personal Care"
+        ],
+        "aliases": []
+    },
+    "Book": {
+        "parents": [
+            "Publication"
+        ],
+        "categories": [
+            "Hobbies and Interests"
+        ],
+        "aliases": []
+    },
+    "Publication": {
+        "parents": [],
+        "categories": [
+            "Education"
+        ],
+        "aliases": []
+    },
+    "Sun Hat": {
+        "parents": [
+            "Clothing",
+            "Hat"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Home Decor": {
+        "parents": [],
+        "categories": [
+            "Furniture and Furnishings"
+        ],
+        "aliases": []
+    },
+    "Undershirt": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Dynamite": {
+        "parents": [
+            "Weapon"
+        ],
+        "categories": [
+            "Weapons and Military"
+        ],
+        "aliases": []
+    },
+    "Weapon": {
+        "parents": [],
+        "categories": [
+            "Weapons and Military"
+        ],
+        "aliases": [
+            "Weaponry"
+        ]
+    },
+    "Baseball": {
+        "parents": [
+            "Sport"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": [
+            "Softball"
+        ]
+    },
+    "Baseball (Ball)": {
+        "parents": [
+            "Ball",
+            "Baseball",
+            "Sport"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Baseball Glove": {
+        "parents": [
+            "Baseball",
+            "Clothing",
+            "Glove",
+            "Sport"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Glove": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Headband": {
+        "parents": [
+            "Accessories"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Bandana": {
+        "parents": [
+            "Accessories",
+            "Headband"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Crash Helmet": {
+        "parents": [
+            "Helmet"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Petal": {
+        "parents": [
+            "Flower",
+            "Plant"
+        ],
+        "categories": [
+            "Plants and Flowers"
+        ],
+        "aliases": []
+    },
+    "Bracelet": {
+        "parents": [
+            "Accessories",
+            "Jewelry"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Hippie": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Mohawk Hairstyle": {
+        "parents": [
+            "Hair",
+            "Person"
+        ],
+        "categories": [
+            "Beauty and Personal Care"
+        ],
+        "aliases": []
+    },
+    "Lighting": {
+        "parents": [],
+        "categories": [
+            "Home and Indoors"
+        ],
+        "aliases": []
+    },
+    "Moon": {
+        "parents": [
+            "Astronomy",
+            "Nature",
+            "Night",
+            "Outdoors"
+        ],
+        "categories": [
+            "Nature and Outdoors"
+        ],
+        "aliases": []
+    },
+    "Club": {
+        "parents": [],
+        "categories": [
+            "Hobbies and Interests"
+        ],
+        "aliases": []
+    },
+    "Night Club": {
+        "parents": [
+            "Club"
+        ],
+        "categories": [
+            "Travel and Adventure"
+        ],
+        "aliases": []
+    },
+    "Freckle": {
+        "parents": [
+            "Face",
+            "Head",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Costume": {
+        "parents": [
+            "Clothing",
+            "Person"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Beanie": {
+        "parents": [
+            "Cap",
+            "Clothing",
+            "Hat"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Animal": {
+        "parents": [],
+        "categories": [
+            "Animals and Pets"
+        ],
+        "aliases": []
+    },
+    "Fish": {
+        "parents": [
+            "Animal",
+            "Sea Life"
+        ],
+        "categories": [
+            "Animals and Pets"
+        ],
+        "aliases": []
+    },
+    "Sea Life": {
+        "parents": [
+            "Animal"
+        ],
+        "categories": [
+            "Animals and Pets"
+        ],
+        "aliases": []
+    },
+    "Shark": {
+        "parents": [
+            "Animal",
+            "Fish",
+            "Sea Life"
+        ],
+        "categories": [
+            "Animals and Pets"
+        ],
+        "aliases": []
+    },
+    "T-Shirt": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Sweets": {
+        "parents": [
+            "Food"
+        ],
+        "categories": [
+            "Food and Beverage"
+        ],
+        "aliases": [
+            "Confectionery"
+        ]
+    },
+    "Candy": {
+        "parents": [
+            "Food",
+            "Sweets"
+        ],
+        "categories": [
+            "Food and Beverage"
+        ],
+        "aliases": []
+    },
+    "Clown": {
+        "parents": [
+            "Performer",
+            "Person"
+        ],
+        "categories": [
+            "Profession"
+        ],
+        "aliases": []
+    },
+    "Tuxedo": {
+        "parents": [
+            "Clothing",
+            "Formal Wear",
+            "Suit"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Text": {
+        "parents": [],
+        "categories": [
+            "Text and Documents"
+        ],
+        "aliases": []
+    },
+    "Lecture": {
+        "parents": [
+            "Audience",
+            "Crowd",
+            "People",
+            "Person"
+        ],
+        "categories": [
+            "Education"
+        ],
+        "aliases": []
+    },
+    "Seminar": {
+        "parents": [
+            "Audience",
+            "Crowd",
+            "Indoors",
+            "Lecture",
+            "People",
+            "Person",
+            "Room"
+        ],
+        "categories": [
+            "Education"
+        ],
+        "aliases": []
+    },
+    "Cup": {
+        "parents": [],
+        "categories": [
+            "Kitchen and Dining"
+        ],
+        "aliases": [
+            "Mug"
+        ]
+    },
+    "Brush": {
+        "parents": [
+            "Device",
+            "Tool"
+        ],
+        "categories": [
+            "Tools and Machinery"
+        ],
+        "aliases": []
+    },
+    "Ballplayer": {
+        "parents": [
+            "Athlete",
+            "Baseball",
+            "People",
+            "Person",
+            "Sport",
+            "Team",
+            "Team Sport"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Team": {
+        "parents": [
+            "People",
+            "Person"
+        ],
+        "categories": [
+            "Person Description"
+        ],
+        "aliases": []
+    },
+    "Team Sport": {
+        "parents": [
+            "People",
+            "Person",
+            "Sport",
+            "Team"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Braid": {
+        "parents": [
+            "Hair",
+            "Person"
+        ],
+        "categories": [
+            "Beauty and Personal Care"
+        ],
+        "aliases": []
+    },
+    "Canopy": {
+        "parents": [],
+        "categories": [
+            "Buildings and Architecture"
+        ],
+        "aliases": []
+    },
+    "Umbrella": {
+        "parents": [
+            "Canopy"
+        ],
+        "categories": [
+            "Everyday Objects"
+        ],
+        "aliases": []
+    },
+    "Crown": {
+        "parents": [
+            "Accessories",
+            "Jewelry"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Tiara": {
+        "parents": [
+            "Accessories",
+            "Jewelry"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Guitar": {
+        "parents": [
+            "Musical Instrument"
+        ],
+        "categories": [
+            "Hobbies and Interests"
+        ],
+        "aliases": []
+    },
+    "Guitarist": {
+        "parents": [
+            "Guitar",
+            "Leisure Activities",
+            "Music",
+            "Musical Instrument",
+            "Musician",
+            "Performer",
+            "Person"
+        ],
+        "categories": [
+            "Profession"
+        ],
+        "aliases": [
+            "Playing Guitar"
+        ]
+    },
+    "Bass Guitar": {
+        "parents": [
+            "Guitar",
+            "Musical Instrument"
+        ],
+        "categories": [
+            "Hobbies and Interests"
+        ],
+        "aliases": []
+    },
+    "Cowboy Hat": {
+        "parents": [
+            "Clothing",
+            "Hat"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Sombrero": {
+        "parents": [
+            "Clothing",
+            "Hat"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Magazine": {
+        "parents": [
+            "Publication"
+        ],
+        "categories": [
+            "Text and Documents"
+        ],
+        "aliases": []
+    },
+    "Ring": {
+        "parents": [
+            "Accessories",
+            "Jewelry"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Astronomy": {
+        "parents": [],
+        "categories": [
+            "Nature and Outdoors"
+        ],
+        "aliases": []
+    },
+    "Duet": {
+        "parents": [
+            "Performer",
+            "Person"
+        ],
+        "categories": [
+            "Performing Arts"
+        ],
+        "aliases": []
+    },
+    "Handwriting": {
+        "parents": [
+            "Text"
+        ],
+        "categories": [
+            "Text and Documents"
+        ],
+        "aliases": []
+    },
+    "Signature": {
+        "parents": [
+            "Handwriting",
+            "Text"
+        ],
+        "categories": [
+            "Text and Documents"
+        ],
+        "aliases": [
+            "Autograph"
+        ]
+    },
+    "Transportation": {
+        "parents": [],
+        "categories": [
+            "Vehicles and Automotive"
+        ],
+        "aliases": []
+    },
+    "Vehicle": {
+        "parents": [
+            "Transportation"
+        ],
+        "categories": [
+            "Vehicles and Automotive"
+        ],
+        "aliases": []
+    },
+    "Car": {
+        "parents": [
+            "Transportation",
+            "Vehicle"
+        ],
+        "categories": [
+            "Vehicles and Automotive"
+        ],
+        "aliases": [
+            "Automobile"
+        ]
+    },
+    "Light": {
+        "parents": [],
+        "categories": [
+            "Colors and Visual Composition"
+        ],
+        "aliases": []
+    },
+    "Wig": {
+        "parents": [
+            "Hair",
+            "Person"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Advertisement": {
+        "parents": [],
+        "categories": [
+            "Text and Documents"
+        ],
+        "aliases": []
+    },
+    "Poster": {
+        "parents": [
+            "Advertisement"
+        ],
+        "categories": [
+            "Furniture and Furnishings"
+        ],
+        "aliases": [
+            "Brochure",
+            "Flyer"
+        ]
+    },
+    "Logo": {
+        "parents": [],
+        "categories": [
+            "Symbols and Flags"
+        ],
+        "aliases": []
+    },
+    "Hood": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Thumbs Up": {
+        "parents": [
+            "Body Part",
+            "Finger",
+            "Hand",
+            "Person"
+        ],
+        "categories": [
+            "Actions"
+        ],
+        "aliases": []
+    },
+    "Police Officer": {
+        "parents": [
+            "Officer",
+            "Person"
+        ],
+        "categories": [
+            "Profession"
+        ],
+        "aliases": []
+    },
+    "Gold": {
+        "parents": [],
+        "categories": [
+            "Materials"
+        ],
+        "aliases": []
+    },
+    "Locket": {
+        "parents": [
+            "Accessories",
+            "Jewelry",
+            "Pendant"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Pendant": {
+        "parents": [
+            "Accessories"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Gold Medal": {
+        "parents": [
+            "Gold",
+            "Trophy"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Trophy": {
+        "parents": [],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Washing": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Actions"
+        ],
+        "aliases": []
+    },
+    "Bathroom": {
+        "parents": [
+            "Indoors",
+            "Room"
+        ],
+        "categories": [
+            "Home and Indoors"
+        ],
+        "aliases": []
+    },
+    "Shower": {
+        "parents": [
+            "Bathroom",
+            "Indoors",
+            "Room"
+        ],
+        "categories": [
+            "Home and Indoors"
+        ],
+        "aliases": [
+            "Showering"
+        ]
+    },
+    "Tub": {
+        "parents": [],
+        "categories": [
+            "Home and Indoors"
+        ],
+        "aliases": []
+    },
+    "Beverage": {
+        "parents": [],
+        "categories": [
+            "Food and Beverage"
+        ],
+        "aliases": [
+            "Drink"
+        ]
+    },
+    "Milk": {
+        "parents": [
+            "Beverage"
+        ],
+        "categories": [
+            "Food and Beverage"
+        ],
+        "aliases": []
+    },
+    "Bishop": {
+        "parents": [
+            "Person",
+            "Priest"
+        ],
+        "categories": [
+            "Religion"
+        ],
+        "aliases": []
+    },
+    "Priest": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Religion"
+        ],
+        "aliases": []
+    },
+    "Boxing": {
+        "parents": [
+            "Sport"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": [
+            "Punching"
+        ]
+    },
+    "Flower Arrangement": {
+        "parents": [
+            "Flower",
+            "Plant"
+        ],
+        "categories": [
+            "Plants and Flowers"
+        ],
+        "aliases": []
+    },
+    "Ornament": {
+        "parents": [
+            "Accessories"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Beach": {
+        "parents": [
+            "Coast",
+            "Nature",
+            "Outdoors",
+            "Sea",
+            "Shoreline",
+            "Water"
+        ],
+        "categories": [
+            "Nature and Outdoors"
+        ],
+        "aliases": []
+    },
+    "Lei": {
+        "parents": [
+            "Accessories",
+            "Flower",
+            "Flower Arrangement",
+            "Ornament",
+            "Plant"
+        ],
+        "categories": [
+            "Plants and Flowers"
+        ],
+        "aliases": []
+    },
+    "Curtain": {
+        "parents": [],
+        "categories": [
+            "Furniture and Furnishings"
+        ],
+        "aliases": []
+    },
+    "Window Shade": {
+        "parents": [
+            "Curtain",
+            "Home Decor"
+        ],
+        "categories": [
+            "Furniture and Furnishings"
+        ],
+        "aliases": []
+    },
+    "Cushion": {
+        "parents": [
+            "Home Decor"
+        ],
+        "categories": [
+            "Home and Indoors"
+        ],
+        "aliases": []
+    },
+    "Headrest": {
+        "parents": [
+            "Cushion",
+            "Home Decor"
+        ],
+        "categories": [
+            "Vehicles and Automotive"
+        ],
+        "aliases": []
+    },
+    "Sleeping": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Actions"
+        ],
+        "aliases": [
+            "Asleep"
+        ]
+    },
+    "Belt": {
+        "parents": [
+            "Accessories"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Athlete": {
+        "parents": [
+            "Person",
+            "Sport"
+        ],
+        "categories": [
+            "Profession"
+        ],
+        "aliases": []
+    },
+    "Brick": {
+        "parents": [],
+        "categories": [
+            "Materials"
+        ],
+        "aliases": []
+    },
+    "Acrobatic": {
+        "parents": [],
+        "categories": [
+            "Performing Arts"
+        ],
+        "aliases": []
+    },
+    "Pole Vault": {
+        "parents": [
+            "Acrobatic",
+            "Person",
+            "Sport",
+            "Track And Field"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Track And Field": {
+        "parents": [
+            "Person",
+            "Sport"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Lingerie": {
+        "parents": [
+            "Clothing",
+            "Underwear"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Underwear": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Bonnet": {
+        "parents": [
+            "Clothing",
+            "Hat"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Graduation": {
+        "parents": [
+            "People",
+            "Person"
+        ],
+        "categories": [
+            "Education"
+        ],
+        "aliases": []
+    },
+    "Bandage": {
+        "parents": [
+            "First Aid"
+        ],
+        "categories": [
+            "Medical"
+        ],
+        "aliases": []
+    },
+    "First Aid": {
+        "parents": [],
+        "categories": [
+            "Medical"
+        ],
+        "aliases": []
+    },
+    "Flag": {
+        "parents": [],
+        "categories": [
+            "Symbols and Flags"
+        ],
+        "aliases": []
+    },
+    "American Flag": {
+        "parents": [
+            "Flag"
+        ],
+        "categories": [
+            "Symbols and Flags"
+        ],
+        "aliases": []
+    },
+    "Sitting": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Actions"
+        ],
+        "aliases": []
+    },
+    "Reading": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Actions"
+        ],
+        "aliases": []
+    },
+    "Laptop": {
+        "parents": [
+            "Computer",
+            "Electronics",
+            "Pc"
+        ],
+        "categories": [
+            "Technology and Computing"
+        ],
+        "aliases": []
+    },
+    "Pc": {
+        "parents": [
+            "Computer",
+            "Electronics"
+        ],
+        "categories": [
+            "Technology and Computing"
+        ],
+        "aliases": []
+    },
+    "Highlighted Hair": {
+        "parents": [
+            "Hair",
+            "Person"
+        ],
+        "categories": [
+            "Beauty and Personal Care"
+        ],
+        "aliases": []
+    },
+    "Library": {
+        "parents": [
+            "Book",
+            "Indoors",
+            "Publication"
+        ],
+        "categories": [
+            "Education"
+        ],
+        "aliases": []
+    },
+    "Batting Helmet": {
+        "parents": [
+            "Helmet"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Cutlery": {
+        "parents": [],
+        "categories": [
+            "Kitchen and Dining"
+        ],
+        "aliases": []
+    },
+    "Fork": {
+        "parents": [
+            "Cutlery"
+        ],
+        "categories": [
+            "Kitchen and Dining"
+        ],
+        "aliases": []
+    },
+    "Alloy Wheel": {
+        "parents": [
+            "Car",
+            "Car Wheel",
+            "Machine",
+            "Spoke",
+            "Tire",
+            "Transportation",
+            "Vehicle",
+            "Wheel"
+        ],
+        "categories": [
+            "Vehicles and Automotive"
+        ],
+        "aliases": []
+    },
+    "Wheel": {
+        "parents": [
+            "Machine"
+        ],
+        "categories": [
+            "Vehicles and Automotive"
+        ],
+        "aliases": []
+    },
+    "Dating": {
+        "parents": [
+            "Person",
+            "Romantic"
+        ],
+        "categories": [
+            "Actions"
+        ],
+        "aliases": []
+    },
+    "Romantic": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Expressions and Emotions"
+        ],
+        "aliases": []
+    },
+    "City": {
+        "parents": [],
+        "categories": [
+            "Buildings and Architecture"
+        ],
+        "aliases": [
+            "Town"
+        ]
+    },
+    "Diamond": {
+        "parents": [
+            "Accessories",
+            "Gemstone",
+            "Jewelry"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Cabinet": {
+        "parents": [
+            "Furniture"
+        ],
+        "categories": [
+            "Furniture and Furnishings"
+        ],
+        "aliases": []
+    },
+    "Cupboard": {
+        "parents": [
+            "Closet",
+            "Furniture"
+        ],
+        "categories": [
+            "Furniture and Furnishings"
+        ],
+        "aliases": []
+    },
+    "Khaki": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Clapperboard": {
+        "parents": [],
+        "categories": [
+            "Hobbies and Interests"
+        ],
+        "aliases": []
+    },
+    "Crying": {
+        "parents": [
+            "Face",
+            "Head",
+            "Person",
+            "Sad"
+        ],
+        "categories": [
+            "Expressions and Emotions"
+        ],
+        "aliases": []
+    },
+    "Biting": {
+        "parents": [
+            "Face",
+            "Head",
+            "Person"
+        ],
+        "categories": [
+            "Actions"
+        ],
+        "aliases": []
+    },
+    "Symbol": {
+        "parents": [],
+        "categories": [
+            "Symbols and Flags"
+        ],
+        "aliases": []
+    },
+    "Red Cross": {
+        "parents": [
+            "First Aid",
+            "Logo",
+            "Symbol"
+        ],
+        "categories": [
+            "Medical"
+        ],
+        "aliases": []
+    },
+    "Fur": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Swimming Pool": {
+        "parents": [
+            "Pool",
+            "Water"
+        ],
+        "categories": [
+            "Home and Indoors"
+        ],
+        "aliases": []
+    },
+    "Summer": {
+        "parents": [],
+        "categories": [
+            "Nature and Outdoors"
+        ],
+        "aliases": []
+    },
+    "Underwater": {
+        "parents": [
+            "Nature",
+            "Outdoors",
+            "Water"
+        ],
+        "categories": [
+            "Nature and Outdoors"
+        ],
+        "aliases": []
+    },
+    "Bubble": {
+        "parents": [],
+        "categories": [
+            "Hobbies and Interests"
+        ],
+        "aliases": []
+    },
+    "Leather Jacket": {
+        "parents": [
+            "Clothing",
+            "Coat",
+            "Jacket"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Premiere": {
+        "parents": [
+            "Fashion"
+        ],
+        "categories": [
+            "Events and Attractions"
+        ],
+        "aliases": []
+    },
+    "Red Carpet": {
+        "parents": [
+            "Fashion",
+            "Premiere"
+        ],
+        "categories": [
+            "Events and Attractions"
+        ],
+        "aliases": [
+            "Red Carpet Premiere"
+        ]
+    },
+    "Classroom": {
+        "parents": [
+            "Architecture",
+            "Building",
+            "Indoors",
+            "Room",
+            "School"
+        ],
+        "categories": [
+            "Education"
+        ],
+        "aliases": []
+    },
+    "School": {
+        "parents": [
+            "Architecture",
+            "Building"
+        ],
+        "categories": [
+            "Education"
+        ],
+        "aliases": []
+    },
+    "Phone": {
+        "parents": [
+            "Electronics"
+        ],
+        "categories": [
+            "Technology and Computing"
+        ],
+        "aliases": []
+    },
+    "Lifejacket": {
+        "parents": [
+            "Clothing",
+            "Vest"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Worker": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Profession"
+        ],
+        "aliases": []
+    },
+    "Aircraft": {
+        "parents": [
+            "Transportation",
+            "Vehicle"
+        ],
+        "categories": [
+            "Vehicles and Automotive"
+        ],
+        "aliases": []
+    },
+    "Helicopter": {
+        "parents": [
+            "Aircraft",
+            "Transportation",
+            "Vehicle"
+        ],
+        "categories": [
+            "Vehicles and Automotive"
+        ],
+        "aliases": []
+    },
+    "Green": {
+        "parents": [],
+        "categories": [
+            "Colors and Visual Composition"
+        ],
+        "aliases": []
+    },
+    "Fence": {
+        "parents": [],
+        "categories": [
+            "Home and Indoors"
+        ],
+        "aliases": []
+    },
+    "Hedge": {
+        "parents": [
+            "Fence",
+            "Plant"
+        ],
+        "categories": [
+            "Home and Indoors"
+        ],
+        "aliases": []
+    },
+    "Street": {
+        "parents": [
+            "City",
+            "Road",
+            "Urban"
+        ],
+        "categories": [
+            "Buildings and Architecture"
+        ],
+        "aliases": []
+    },
+    "Tennis Racket": {
+        "parents": [
+            "Racket",
+            "Sport",
+            "Tennis"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Executive": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Profession"
+        ],
+        "aliases": []
+    },
+    "Lab Coat": {
+        "parents": [
+            "Clothing",
+            "Coat"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Wildlife": {
+        "parents": [
+            "Animal"
+        ],
+        "categories": [
+            "Animals and Pets"
+        ],
+        "aliases": []
+    },
+    "Mammal": {
+        "parents": [
+            "Animal"
+        ],
+        "categories": [
+            "Animals and Pets"
+        ],
+        "aliases": []
+    },
+    "Orangutan": {
+        "parents": [
+            "Animal",
+            "Mammal",
+            "Wildlife"
+        ],
+        "categories": [
+            "Animals and Pets"
+        ],
+        "aliases": []
+    },
+    "Ape": {
+        "parents": [
+            "Animal",
+            "Mammal",
+            "Wildlife"
+        ],
+        "categories": [
+            "Animals and Pets"
+        ],
+        "aliases": []
+    },
+    "Purple": {
+        "parents": [],
+        "categories": [
+            "Colors and Visual Composition"
+        ],
+        "aliases": []
+    },
+    "Lollipop": {
+        "parents": [
+            "Candy",
+            "Food",
+            "Sweets"
+        ],
+        "categories": [
+            "Food and Beverage"
+        ],
+        "aliases": []
+    },
+    "Angry": {
+        "parents": [
+            "Face",
+            "Head",
+            "Person"
+        ],
+        "categories": [
+            "Expressions and Emotions"
+        ],
+        "aliases": []
+    },
+    "Shouting": {
+        "parents": [
+            "Angry",
+            "Face",
+            "Head",
+            "Person"
+        ],
+        "categories": [
+            "Expressions and Emotions"
+        ],
+        "aliases": []
+    },
+    "Patient": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Medical"
+        ],
+        "aliases": []
+    },
+    "Apple": {
+        "parents": [
+            "Food",
+            "Fruit",
+            "Plant",
+            "Produce"
+        ],
+        "categories": [
+            "Food and Beverage"
+        ],
+        "aliases": []
+    },
+    "Fruit": {
+        "parents": [
+            "Food",
+            "Plant",
+            "Produce"
+        ],
+        "categories": [
+            "Food and Beverage"
+        ],
+        "aliases": []
+    },
+    "Produce": {
+        "parents": [
+            "Food"
+        ],
+        "categories": [
+            "Food and Beverage"
+        ],
+        "aliases": []
+    },
+    "Tool": {
+        "parents": [
+            "Device"
+        ],
+        "categories": [
+            "Tools and Machinery"
+        ],
+        "aliases": []
+    },
+    "Document": {
+        "parents": [
+            "Text"
+        ],
+        "categories": [
+            "Text and Documents"
+        ],
+        "aliases": []
+    },
+    "Driving License": {
+        "parents": [
+            "Document",
+            "Id Cards",
+            "Text"
+        ],
+        "categories": [
+            "Text and Documents"
+        ],
+        "aliases": [
+            "License"
+        ]
+    },
+    "Id Cards": {
+        "parents": [
+            "Document",
+            "Text"
+        ],
+        "categories": [
+            "Text and Documents"
+        ],
+        "aliases": []
+    },
+    "Hot Tub": {
+        "parents": [
+            "Tub"
+        ],
+        "categories": [
+            "Home and Indoors"
+        ],
+        "aliases": [
+            "Jacuzzi"
+        ]
+    },
+    "Rock Concert": {
+        "parents": [
+            "Concert",
+            "Crowd",
+            "Person"
+        ],
+        "categories": [
+            "Hobbies and Interests"
+        ],
+        "aliases": []
+    },
+    "Pope": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Religion"
+        ],
+        "aliases": []
+    },
+    "Drinking": {
+        "parents": [
+            "Beverage",
+            "Person"
+        ],
+        "categories": [
+            "Food and Beverage"
+        ],
+        "aliases": []
+    },
+    "Alcohol": {
+        "parents": [
+            "Beverage"
+        ],
+        "categories": [
+            "Food and Beverage"
+        ],
+        "aliases": []
+    },
+    "Drinking Alcohol": {
+        "parents": [
+            "Alcohol",
+            "Beverage",
+            "Drinking",
+            "Person"
+        ],
+        "categories": [
+            "Actions"
+        ],
+        "aliases": []
+    },
+    "Glass": {
+        "parents": [],
+        "categories": [
+            "Materials"
+        ],
+        "aliases": []
+    },
+    "Spitting": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Actions"
+        ],
+        "aliases": []
+    },
+    "Veil": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Party Hat": {
+        "parents": [
+            "Clothing",
+            "Hat"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Ketchup": {
+        "parents": [
+            "Food"
+        ],
+        "categories": [
+            "Food and Beverage"
+        ],
+        "aliases": []
+    },
+    "Sky": {
+        "parents": [
+            "Nature",
+            "Outdoors"
+        ],
+        "categories": [
+            "Nature and Outdoors"
+        ],
+        "aliases": []
+    },
+    "Cross": {
+        "parents": [
+            "Symbol"
+        ],
+        "categories": [
+            "Symbols and Flags"
+        ],
+        "aliases": []
+    },
+    "Mobile Phone": {
+        "parents": [
+            "Electronics",
+            "Phone"
+        ],
+        "categories": [
+            "Technology and Computing"
+        ],
+        "aliases": [
+            "Cell Phone"
+        ]
+    },
+    "Field Hockey": {
+        "parents": [
+            "Hockey",
+            "Sport"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Field Hockey Stick": {
+        "parents": [
+            "Field Hockey",
+            "Hockey",
+            "Sport"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Hockey": {
+        "parents": [
+            "Sport"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "aliases": []
+    },
+    "Dress": {
+        "parents": [
+            "Clothing"
+        ],
+        "categories": [
+            "Apparel and Accessories"
+        ],
+        "aliases": []
+    },
+    "Injury": {
+        "parents": [
+            "Person"
+        ],
+        "categories": [
+            "Medical"
+        ],
+        "aliases": []
+    }
+}

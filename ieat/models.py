@@ -3,7 +3,7 @@ from ieat.utils import resize, normalize_img, color_quantize_np
 import os
 
 import transformers
-from transformers.modeling_gpt2 import GPT2LMHeadModel
+#from transformers.modeling_gpt2 import GPT2LMHeadModel
 
 import torch
 import torch.nn as nn
@@ -119,7 +119,7 @@ class EmbeddingExtractor:
 			self.load_model()
 		if batch_size is None:
 			batch_size = len(image_paths)
-
+		print(image_paths)
 		with torch.no_grad():  # saves some memory
 			batches = [image_paths[i:i+batch_size] for i in range(0, len(image_paths), batch_size)]
 
@@ -414,7 +414,53 @@ class ln_mod(nn.Module):
 		return x \
 			/ torch.sqrt(torch.std(x, axis=-1, unbiased=False, keepdim=True) ** 2 + self.eps) \
 			* self.weight.data[..., :]
+import copy
+import math
 
+import mmcv
+import numpy as np
+import torch.nn as nn
+from mmcv.transforms import Compose
+from mmengine.config import Config, DictAction
+from mmengine.dataset import default_collate
+from mmengine.utils import to_2tuple
+from mmengine.utils.dl_utils import is_norm
+
+from mmpretrain import digit_version, ImageClassificationInferencer
+from mmpretrain.apis import get_model
+from mmpretrain.registry import TRANSFORMS
+class ViTExtractor(EmbeddingExtractor):
+	"""Extractor using the [BEIT model](
+    """
+    
+	def __init__(self, model_name, config, check, **parent_params):
+		super().__init__(model_name, **parent_params)
+		self.model = None
+		self.config = config
+		self.cfg=None
+		self.checkpoint=check
+  
+	def load_model(self):
+		self.cfg = Config.fromfile(self.config)
+		# build the model from a config file and a checkpoint file
+		self.model = ImageClassificationInferencer(self.cfg, self.checkpoint, device='cpu')
+				
+
+	def process_samples(self, image_paths, visualize=False):
+		return image_paths
+
+	def _extract_context(self, samples, gpu, **extract_kwargs) -> np.ndarray:
+		output = self.model(samples)
+		scores = [x["pred_scores"] for x in output]
+		return np.array(scores)
+
+	def _make_param_path(self):
+		pass
+
+	
+
+	
+  
 
 def load_tf_weights_in_image_gpt2(model, config, gpt2_checkpoint_path):
 	"""
@@ -533,23 +579,23 @@ def replace_ln(m, name, config):
 		replace_ln(ch, n, config)
 
 
-class ImageGPT2LMHeadModel(GPT2LMHeadModel):
-	"""
-	Extension of the HuggingFace `GPT2LMHeadModel` for iGPT.
-	From [apeguero1](https://colab.research.google.com/github/apeguero1/image-gpt/blob/master/Transformers_Image_GPT.ipynb).
-	"""
-	load_tf_weights = load_tf_weights_in_image_gpt2
+# class ImageGPT2LMHeadModel(GPT2LMHeadModel):
+# 	"""
+# 	Extension of the HuggingFace `GPT2LMHeadModel` for iGPT.
+# 	From [apeguero1](https://colab.research.google.com/github/apeguero1/image-gpt/blob/master/Transformers_Image_GPT.ipynb).
+# 	"""
+# 	load_tf_weights = load_tf_weights_in_image_gpt2
 
-	def __init__(self, config):
-		super().__init__(config)
-		self.lm_head = nn.Linear(config.n_embd, config.vocab_size - 1, bias=False)
-		replace_ln(self, "net", config)  # replace layer normalization
-		for n in range(config.n_layer):
-			self.transformer.h[n].mlp.act = ImageGPT2LMHeadModel.gelu2  # replace activation
+# 	def __init__(self, config):
+# 		super().__init__(config)
+# 		self.lm_head = nn.Linear(config.n_embd, config.vocab_size - 1, bias=False)
+# 		replace_ln(self, "net", config)  # replace layer normalization
+# 		for n in range(config.n_layer):
+# 			self.transformer.h[n].mlp.act = ImageGPT2LMHeadModel.gelu2  # replace activation
 
-	def tie_weights(self):  # image-gpt doesn't tie output and input embeddings
-		pass
+# 	def tie_weights(self):  # image-gpt doesn't tie output and input embeddings
+# 		pass
 
-	@staticmethod
-	def gelu2(x):
-		return x * torch.sigmoid(1.702 * x)
+# 	@staticmethod
+# 	def gelu2(x):
+# 		return x * torch.sigmoid(1.702 * x)
